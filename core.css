@@ -1,0 +1,191 @@
+body {
+    font-family: "open-sans", sans-serif;
+    font-weight: 400;
+    font-size: 13pt;
+    color: #606161;
+    background-color: #f2f0ed;
+}
+
+#root {
+    overflow: hidden;
+}
+
+.btn {
+    font-size: 12pt;
+}
+
+.btn p {
+    font-size: 12pt;
+}
+
+
+.btn-transparent {
+    background-color: transparent;
+    border: 1px solid #112437;
+    border-radius: 20px;
+    min-width: 140px;
+    color: #112437;
+}
+
+.btn-transparent:hover, .btn-transparent:active, .btn-transparent:focus {
+    background-color: transparent;
+    border: 1px solid #112437;
+    color: #112437;
+}
+
+.btn-primary {
+    background-color: #112437;
+    border: 1px solid #112437;
+    border-radius: 20px;
+    min-width: 140px;
+    color: #f2f0ed;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: #112437;
+    border: 1px solid #112437;
+    color: #f2f0ed;
+}
+
+.btn-disabled {
+    background-color: #cecece;
+    border: 1px solid #606161;
+    border-radius: 20px;
+    min-width: 140px;
+    color: #606161;
+}
+
+.btn-disabled:hover, .btn-disabled:active, .btn-disabled:focus {
+    background-color: #cecece;
+    border: 1px solid #606161;
+    color: #606161;
+}
+
+h1 {
+    font-family: "open-sans", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 25pt;
+    margin-top: 10px;
+}
+
+h4 {
+    font-size: 15pt;
+}
+
+p {
+    font-size: 13pt;
+}
+
+a, a:hover, a:focus {
+    color: #112437;
+    text-decoration: none;
+}
+
+.xs-text {
+    font-size: 10pt;
+}
+
+.small-text {
+    font-size: 11pt;
+}
+
+.medium-text {
+    font-size: 12pt;
+}
+
+.passive-text {
+    color: #606161;
+}
+
+.active-text {
+    color: #112437;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.form-group {
+    margin: 0 auto;
+}
+
+.form-control {
+    font-size: 12pt;
+}
+
+.form-group input, .form-group select {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #606161;
+    box-shadow: none;
+    border-radius: 0;
+    height: 45px;
+    margin: 0 auto;
+    resize: none;
+    color: #112437;
+}
+.form-group select {
+    padding: 0;
+    margin-top: 5px;
+}
+
+*:focus {
+    outline: none!important;
+}
+
+.form-group input:focus, .form-group select:focus,
+.form-group input:active, .form-group select:active {
+    outline: none!important;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-color: #112437;
+}
+
+.c-settings .form-group input:focus, .c-settings .form-group select:focus,
+.c-settings .form-group input:active, .c-settings .form-group select:active {
+    border-color: #998670;
+}
+
+select option {
+    background-color: transparent;
+}
+
+label {
+    font-weight: 300;
+}
+
+input::-webkit-input-placeholder, .form-group input::-webkit-input-placeholder, .form-group textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #112437;
+}
+input::-moz-placeholder, .form-group input::-moz-placeholder, .form-group textarea::-webkit-input-placeholder { /* Firefox 19+ */
+    color: #112437;
+}
+input:-ms-input-placeholder, .form-group input:-ms-input-placeholder, .form-group textarea::-webkit-input-placeholder { /* IE 10+ */
+    color: #112437;
+}
+input:-moz-placeholder, .form-group input:-moz-placeholder, .form-group textarea::-webkit-input-placeholder { /* Firefox 18- */
+    color: #112437;
+}
+
+.c-settings input::-webkit-input-placeholder, .c-settings .form-group input::-webkit-input-placeholder, .c-settings .form-group textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #919191;
+}
+.c-settings input::-moz-placeholder, .c-settings .form-group input::-moz-placeholder, .c-settings .form-group textarea::-webkit-input-placeholder { /* Firefox 19+ */
+    color: #919191;
+}
+.c-settings input:-ms-input-placeholder, .c-settings .form-group input:-ms-input-placeholder, .c-settings .form-group textarea::-webkit-input-placeholder { /* IE 10+ */
+    color: #919191;
+}
+.c-settings input:-moz-placeholder, .c-settings .form-group input:-moz-placeholder, .c-settings .form-group textarea::-webkit-input-placeholder { /* Firefox 18- */
+    color: #919191;
+}
+
+@media (min-width: 768px) {
+
+    .desktop-uppercase {
+        text-transform: uppercase;
+        float: none!important;
+        font-size: 11pt;
+    }
+}
