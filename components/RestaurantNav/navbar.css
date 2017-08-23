@@ -1,0 +1,58 @@
+.o-navbar {
+    background-color: #998670;
+    text-align: center;
+    margin: 0;
+    height: 45px;
+}
+
+.o-navbar__title {
+    padding-top: 3px;
+}
+
+.o-navbar__settings {
+    width: 23px;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+
+.o-navbar__back {
+    width: 13px;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+.o-navbar__sign-out {
+    border-right: 1px solid;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+    .o-navbar {
+        background-color: #112533;
+        text-align: left;
+        color: #dbdbdb;
+        margin: 0;
+        height: 65px;
+        border-bottom: 1px solid #998670;
+    }
+
+    .o-navbar__title {
+        margin-top: 20px;
+        float: right;
+    }
+
+    .o-navbar__settings {
+        width: 20px;
+        position: static;
+        margin-right: 8px;
+        vertical-align: sub;
+    }
+
+    .o-navbar__logo {
+        height: 25px;
+        margin: 20px;
+    }
+}

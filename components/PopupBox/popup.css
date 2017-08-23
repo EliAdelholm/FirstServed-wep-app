@@ -1,0 +1,135 @@
+.o-popup {
+    position: fixed;
+    top: 30%;
+    background-color: #112437;
+    width: 80%;
+    left: 10%;
+    border: 1px solid #112437;
+    border-radius: 15px;
+    text-align: center;
+    color: #f2f0ed;
+    z-index: 100;
+    padding-top: 20px;
+}
+
+.c-table .o-popup {
+    background-color: #112533;
+    border-color: #998670;
+    color: #998670;
+}
+
+.o-popup-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 18px!important;
+}
+
+.o-popup__text {
+    padding: 10px 30px 20px 30px;
+    font-size: 11pt;
+}
+
+.o-popup__extra {
+    padding: 0 30px 20px 30px;
+    font-size: 11pt;
+}
+
+.o-popup__text p {
+    margin: 0;
+    font-size: 13pt!important;
+}
+
+.o-popup__button {
+    width: 50%;
+    background-color: transparent;
+    border: none;
+    height: 40px;
+    border-top: 1px solid #f2f0ed;
+}
+
+.c-table .o-popup__button {
+    border-color: #998670;
+}
+
+.o-popup__button-left {
+    border-right: 1px solid #f2f0ed;
+}
+
+.c-table .o-popup__button-left {
+    border-color: #998670;
+    color: #dbdbdb;
+}
+
+.o-popup__button-right {
+    color: #f2f0ed;
+}
+
+.c-table .o-popup__button-right {
+    color: #998670;
+}
+
+@media (min-width: 768px) {
+    .o-popup {
+        width: 50%;
+        left: 25%;
+        background-color: #112437;
+        color: #f2f0ed;
+        padding-bottom: 20px;
+    }
+
+    .c-tables .o-popup {
+        background-color: #112533;
+        border-color: #998670;
+        color: #998670;
+    }
+
+    .o-popup-icon {
+        width: 90px;
+    }
+
+    .o-popup__button {
+        width: 120px;
+        height: 30px;
+        border: 1px solid #f2f0ed;
+        border-radius: 15px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .c-table .o-popup__button {
+
+    }
+
+    .o-popup__button-left {
+        color: #112437;
+        background-color: #f2f0ed;
+    }
+
+    .c-table .o-popup__button-left {
+        color: #112533;
+        background-color: #dbdbdb;
+        border-color: #dbdbdb;
+    }
+
+    .c-table .o-popup__button-right {
+        color: #dbdbdb;
+        border-color: #dbdbdb;
+    }
+}
+
+@media (min-width: 992px) {
+    .o-popup {
+        width: 40%;
+        left: 30%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .o-popup {
+        width: 30%;
+        left: 35%;
+    }
+
+}

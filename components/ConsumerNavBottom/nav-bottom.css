@@ -1,0 +1,103 @@
+.o-nav-bottom {
+    background-color: #112437;
+    text-align: center;
+    color: #f2f0ed;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 100;
+    margin: 0;
+    border-top: 1px solid #606161;
+}
+
+.o-nav-bottom__menu-item {
+    text-align: center;
+    height: 100%;
+    padding: 0;
+}
+
+.o-nav-bottom a,
+.o-nav-bottom a:hover,
+.o-nav-bottom a:focus {
+    color: #f2f0ed;
+}
+
+.o-nav-bottom__menu-item p {
+    margin-top: -23px;
+}
+
+.o-nav-bottom__menu-icon {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .o-nav-bottom {
+        top: 0;
+        border-top: none;
+        border-bottom: 1px solid #606161;
+        height: 50px;
+    }
+
+    .o-desktop-nav .medium-text {
+        font-size: 10pt;
+        margin-bottom: 0;
+    }
+
+    .o-nav-desktop__logo-container {
+        padding: 0;
+    }
+
+    .o-nav-desktop__logo {
+        margin-left: 10px;
+        margin-top: 15px;
+        height: 20px;
+    }
+
+    .o-desktop-nav__filter-map {
+        margin-right: 0;
+        border-right: 1px solid;
+        padding-right: 20px;
+        cursor: pointer;
+        color: #f2f0ed;
+    }
+
+    .o-nav-bottom__menu-icon {
+        height: 20px;
+        margin-left: 15px;
+        margin-right: 5px;
+        vertical-align: bottom;
+        margin-bottom: 0;
+    }
+
+    .o-desktop-nav {
+        margin-top: 15px;
+        float: right;
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .o-desktop-nav .medium-text {
+        font-size: 11pt;
+    }
+
+    .o-nav-desktop__logo {
+        margin-top: 10px;
+        height: 25px;
+    }
+
+    .o-desktop-nav__filter-map {
+        margin-right: 20px;
+        padding-right: 30px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+
