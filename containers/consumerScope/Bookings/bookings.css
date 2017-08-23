@@ -1,0 +1,90 @@
+.c-bookings {
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.c-bookings__available, .c-bookings__booked {
+    margin-top: 60px;
+}
+
+.c-bookings__available h1, .c-bookings__waiting h1 {
+    margin-bottom: 30px;
+}
+
+.c-bookings__waiting {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.c-bookings__desktop-list {
+    margin-top: 80px;
+}
+
+.c-bookings-desktop__list-header {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.c-bookings-desktop__table-icon {
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.c-bookings__booked-info__item {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.c-bookings__booked {
+    text-align: center;
+}
+
+.c-bookings__booked-title {
+    margin-top: 50px;
+    font-size: 12pt;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.c-bookings__booked-info {
+    padding: 0;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.c-bookings__booked-info__item img {
+    width: 18px;
+    padding-top: 15px;
+}
+
+.c-bookings__booked-info__item p {
+    font-size: 10pt;
+}
+
+@media (min-width: 768px) {
+    .c-bookings__booked-info__item img {
+        width: 30px;
+    }
+
+    .c-bookings__booked-info__item p {
+        font-size: 12pt;
+    }
+
+    .c-bookings__booked-title {
+        font-size: 20pt;
+    }
+
+    .c-bookings__booked {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}

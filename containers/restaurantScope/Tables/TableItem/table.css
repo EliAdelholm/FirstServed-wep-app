@@ -1,0 +1,21 @@
+.c-table__item {
+    border-bottom: 1px solid #998670;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.c-table__item-info {
+    width: 100%;
+}
+
+.c-table__item-clock {
+    width: 20px;
+    vertical-align: sub;
+}
+
+.c-table__item--contact-icon {
+    width: 30px;
+    cursor: pointer;
+    margin-top: -5px;
+}

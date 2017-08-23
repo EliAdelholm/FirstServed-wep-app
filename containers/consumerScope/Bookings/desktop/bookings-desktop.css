@@ -1,0 +1,54 @@
+.c-bookings-desktop__item {
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.c-bookings-desktop__item-info {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.c-bookings__desktop-info {
+    width: 65%;
+}
+
+.c-bookings__desktop-info a, .c-bookings-desktop__item-info a {
+    text-transform: uppercase;
+}
+
+.c-bookings-desktop__item p {
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.c-bookings-desktop__address-text {
+    width: 90%;
+}
+
+.c-bookings-desktop__address-icon {
+    width: 11px;
+    margin-right: 5px;
+    vertical-align: text-top;
+    margin-top: 2px;
+}
+
+.c-bookings-desktop__book-button {
+    margin-top: 15px;
+}
+
+.c-bookings-desktop__book-button button {
+    margin: 2px;
+}
+
+.c-bookings-desktop__dismiss-icon {
+    width: 40px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.c-bookings-desktop__book-button button p {
+    display: inline-block;
+    overflow: inherit;
+}

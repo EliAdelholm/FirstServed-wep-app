@@ -1,0 +1,263 @@
+.c-consumer, .c-restaurant-page {
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.c-consumer__map-container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.c-consumer__map {
+    margin: 0;
+}
+
+.c-map__info-window {
+    width: 200px;
+    background-color: #112437;
+}
+
+.c-map__info-window .c-restaurant-item {
+    color: #112437;
+    padding: 0;
+}
+
+.c-restaurant-item__container {
+    padding: 0;
+}
+
+.c-restaurant-item__header {
+    text-transform: uppercase;
+    padding: 0;
+    margin-bottom: 0;
+    padding-top: 5px;
+}
+
+.c-restaurant-item__header p {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.c-restaurant-item__image {
+    padding-bottom: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.c-restaurant-item__description {
+    padding: 0;
+    margin-top: 20px;
+}
+
+.c-restaurant-item__options {
+    padding-right: 0;
+}
+
+.c-restaurant-item__options-div {
+    margin-top: 15px;
+    padding-bottom: 15px;
+    color: #f2f0ed;
+}
+
+.c-restaurant-item__options img {
+    width: 40px;
+    margin-top: -10px;
+}
+
+.c-restaurant-mobile__fav-icon {
+    width: 25px;
+    margin-top: 21px;
+    position: absolute;
+    right: 30%;
+}
+
+.c-map__info-window .c-restaurant-item__description {
+    padding-left: 0;
+}
+
+.c-restaurant-item__table {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.c-restaurant-item__address {
+    padding: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.c-restaurant-item__address p {
+    padding-bottom: 10px;
+}
+
+.c-restaurant-item-mobile-bottom {
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+}
+
+.c-restaurant-desktop__button button {
+    margin: 4px;
+}
+
+.c-map__info-window .c-restaurant-item__address {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.c-map__info-window .c-restaurant-item__address p {
+    width: 90%;
+}
+
+.c-map__info-window .c-restaurant-item__address img {
+    width: 7%;
+    margin-right: 3%;
+    vertical-align: super;
+}
+
+
+
+.c-restaurant-item__address img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.gm-style .c-map__info-window {
+    font: 400 12pt "open-sans", sans-serif;
+}
+
+.search-input {
+    margin-top: 40px;
+    padding-bottom: 15px;
+}
+
+.search-input input {
+    background-color: transparent;
+    border: 1px solid #606161;
+    border-radius: 8px;
+    padding: 5px;
+    margin-left: 5%;
+    width: 90%;
+    text-align: center;
+}
+
+.c-restaurant-page__top-bar {
+    background-color: #112437;
+    border-bottom: 1px solid #606161;
+    text-align: center;
+    color: #f2f0ed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    z-index: 100;
+    margin: 0;
+}
+
+.c-restaurant-page__top-bar h1 {
+    margin-left: 25px;
+}
+
+.c-restaurant-page__top-bar img {
+    width: 24px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.c-restaurant-page__description {
+    text-align: left;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.c-restaurant-page__description img {
+    display: none;
+}
+
+.c-restaurant-page__image {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 45px;
+}
+
+.c-restaurant-page__booking {
+    text-align: center;
+}
+
+.c-restaurant-page__booking-mobile {
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.c-restaurant-page__booking-mobile h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-top: 1px solid;
+    padding-top: 15px;
+}
+
+.c-restaurant-page__booking-mobile p {
+    margin: 0;
+}
+
+
+.c-restaurant-page__booking button {
+    margin: 5px
+}
+
+.c-restaurant-page__booking p {
+    display: inline-block;
+    margin: 0;
+}
+
+.c-restaurant-page__waitlist-toggle {
+    margin-right: 7px;
+}
+
+.c-restaurant-page__waitlist {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    border-bottom: 1px solid #90887a;
+    border-top: 1px solid #90887a;
+    padding-right: 0;
+    padding-left: 0;
+}
+.c-restaurant-page__info-item-wrapper {
+    padding: 0;
+}
+
+.c-restaurant-page__info-item {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.c-restaurant-page__info-icon {
+    width: 40px;
+}
+
+.c-restaurant-page__address-icon {
+    width: 13px;
+}
+
+.c-restaurant-page__address {
+    display: inline;
+    padding-left: 5px;
+}
+
+.c-restaurant-page__price-info {
+
+}
+.c-restaurant-page__price-level {
+    border-radius: 50px;
+    width: 25px;
+    color: #90887a;
+    cursor: pointer;
+    margin-left: 10px!important;
+    margin-bottom: 20px!important;
+}

@@ -1,0 +1,373 @@
+.c-table, .c-settings {
+    min-height: 100vh;
+    background-color: #0e1d28;
+    color: #998670;
+}
+
+.c-table .active-text,
+.c-settings .active-text {
+    color: #dbdbdb;
+}
+
+.c-table .passive-text,
+.c-settings .passive-text {
+    color: #998670;
+}
+
+.c-table a, .c-table a:hover, .c-table a:focus,
+.c-settings a, .c-settings a:hover, .c-settings a:focus{
+    color: #dbdbdb;
+}
+
+.c-table .btn-primary,
+.c-settings .btn-primary {
+    background-color: #dbdbdb;
+    border: 1px solid #0e1d28;
+    border-radius: 20px;
+    min-width: 140px;
+    color: #0e1d28;
+}
+
+.c-table .btn-primary:hover, .c-table .btn-primary:active, .c-table .btn-primary:focus,
+.c-settings .btn-primary:hover, .c-settings .btn-primary:active, .c-settings .btn-primary:focus {
+    background-color: #dbdbdb;
+    border: 1px solid #0e1d28;
+    color: #0e1d28;
+}
+
+.c-settings .form-group input, .c-settings .form-group select {
+    color: #dbdbdb;
+}
+
+.c-table__form {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.c-table__publish {
+    margin-top: 20px;
+}
+
+.c-table__item-header {
+    border-bottom: 1px solid #998670;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.c-table__item-list {
+    padding: 0;
+}
+
+
+
+.c-table__waiting-list {
+    padding: 0;
+    margin-top: 30px;
+}
+
+.c-table__waiting-list img, .c-table__booking img {
+    width: 20px;
+    vertical-align: sub;
+}
+
+.c-waiting-tables {
+    border: 1px solid;
+    width: 290px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.c-waiting-tables__number {
+    width: 100px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.c-waiting-tables__people {
+    margin-bottom: 0;
+    text-align: center;
+    width: 178px;
+    border-right: 1px solid;
+}
+
+.c-settings__waiting-list {
+    border-bottom: 1px solid #998670;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.c-settings__waiting-list p {
+    margin-bottom: -5px;
+}
+
+.c-settings__waiting-list label {
+    margin-top: -5px;
+}
+
+.c-settings__time-frame {
+    border-bottom: 1px solid #998670;
+    margin-top: 20px;
+    padding: 0;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+}
+
+.c-settings__form {
+    margin-top: 55px;
+}
+
+.c-settings__form .form-group {
+    display: inline-block;
+    padding: 0;
+}
+
+.c-settings__form-header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.c-settings__form-header img {
+    width: 70px;
+}
+
+.c-settings__icon {
+    width: 5%;
+}
+
+.c-settings .form-group input,
+.c-settings .form-group .o-content-editable,
+.c-settings__time-frame-input,
+.c-settings .form-group select {
+    display: inline-block;
+    width: 90%;
+    margin-left: 5%;
+    padding-left: 0;
+}
+
+.c-settings__time-frame-input {
+    border-bottom: 1px solid #998670;
+}
+
+.c-settings .form-group .c-settings__time-frame-input input {
+    width: 55px !important;
+    margin-left: 20px;
+    padding-left: 5px;
+    border: none;
+}
+
+.c-settings .c-settings__time-frame-input p {
+    margin: 0;
+}
+
+.c-settings .form-group .o-content-editable {
+    padding: 0;
+    margin-top: 15px;
+    border-bottom: none;
+    overflow: auto;
+    color: #dbdbdb;
+}
+
+.c-settings .form-group .o-content-editable p {
+    margin-bottom: 0;
+}
+
+.c-settings .form-group .c-settings__long-text {
+    height: 250px;
+}
+
+.c-settings .form-group .c-settings__short-text {
+    height: 70px;
+}
+
+.c-settings__text-icon {
+    vertical-align: top;
+    margin-top: 22px;
+}
+
+.c-settings .form-group input, .c-settings .form-group select {
+    border-bottom: 1px solid #998670;
+}
+
+.notes {
+    background-image: -webkit-linear-gradient(left, transparent 0px, transparent 0px), -webkit-linear-gradient(to left, transparent 0px, transparent 0px), -webkit-linear-gradient(transparent 30px, #90887a 30px, #90887a 31px, white 31px);
+    background-image: -moz-linear-gradient(left, #112437 0px, transparent 0px), -moz-linear-gradient(to left, #112437 0px, transparent 0px), -moz-linear-gradient(transparent 30px, #90887a 30px, #90887a 31px, white 31px);
+    background-image: -ms-linear-gradient(left, #112437 0px, transparent 0px), -ms-linear-gradient(to left, #112437 0px, transparent 0px), -ms-linear-gradient(transparent 30px, #90887a 30px, #90887a 31px, white 31px);
+    background-image: -o-linear-gradient(left, #112437 0px, transparent 0px), -o-linear-gradient(to left, #112437 0px, transparent 0px), -o-linear-gradient(transparent 30px, #90887a 30px, #90887a 31px, white 31px);
+    background-image: linear-gradient(left, #112437 0px, transparent 0px), linear-gradient(to left, #112437 0px, transparent 0px), linear-gradient(transparent 30px, #90887a 30px, #90887a 31px, white 31px);
+    background-size: 100% 100%, 100% 100%, 100% 31px;
+    line-height: 31px;
+    padding: 8px;
+    width: 300px;
+    height: 500px;
+}
+
+.notes:focus {
+    outline: none;
+}
+
+.c-settings__featured-image {
+    width: 100%;
+}
+
+.c-settings__image-div {
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.c-settings__edit-photo-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.73);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+.c-settings__edit-photo-btn img {
+    width: 25px;
+    vertical-align: text-top;
+    margin-right: 10px;
+}
+
+.c-settings .form-group .c-settings__image-input {
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.c-settings__save-changes {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.c-settings__save-btn {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.c-settings__saved {
+
+}
+
+.c-settings__time-frame .form-group input {
+    width: 55px;
+    text-align: center;
+    padding-right: 0;
+    margin-right: 5px;
+}
+
+.c-table__booking {
+    color: #dbdbdb;
+    padding: 0;
+}
+
+.c-table__booking-text {
+    padding-bottom: 6px;
+    margin-top: 15px;
+    padding-left: 13px;
+}
+
+.c-table__booking p {
+    font-size: 11pt;
+}
+
+.c-settings__sign-out {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    cursor: pointer;
+    width: auto;
+    z-index: 20;
+}
+
+.c-settings__sign-out img {
+    width: 22px;
+    margin-right: 10px;
+}
+
+.c-settings__notifications-denied {
+    margin-top: 30px;
+    margin-bottom: 10px!important;
+    font-size: 10pt;
+}
+
+@media (min-width: 768px) {
+
+    .c-settings__sign-out {
+        top: 70px;
+    }
+
+    .c-table__form {
+        margin-top: 50px;
+    }
+
+    .c-table__form p {
+        font-size: 12pt;
+    }
+
+    .c-table__item-header {
+        border-bottom: none;
+        text-align: center;
+    }
+
+    .c-table__item {
+        border-bottom: none;
+    }
+
+    .c-table__table-icon {
+        width: 60px;
+        margin-bottom: 15px;
+    }
+
+    .c-table__item-info {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .c-table__waiting-list-fixed {
+        position: absolute;
+        top: -10px;
+        right: 10px;
+        text-align: right;
+        padding-right: 40px;
+        padding-bottom: 10px;
+    }
+
+    .c-waiting-tables {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .c-waiting-tables__number {
+        width: 35%
+    }
+
+    .c-waiting-tables__people {
+        width: 65%;
+    }
+
+    .c-table__split-line {
+        width: 1px;
+        height: 250px;
+        background-color: #998670;
+        position: absolute;
+        right: 50%;
+        top: 350px;
+    }
+
+    .c-settings__icon {
+        width: 20px;
+    }
+
+    .c-settings .form-group .c-settings__long-text {
+        height: 200px;
+    }
+
+}

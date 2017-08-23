@@ -1,0 +1,123 @@
+.c-account {
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.c-account__sign-out {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.c-account__sign-out img {
+    width: 17px;
+    margin-left: 10px;
+}
+
+.c-account__form {
+    margin-bottom: 80px;
+}
+
+.c-account__form-header {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px
+}
+
+.c-account__form-header img {
+    width: 50px;
+    margin-top: 30px;
+}
+
+.c-account h1 {
+    margin-top: 20px;
+}
+
+.c-account__form .form-group {
+    display: inline-block;
+    padding: 0;
+}
+
+.c-account .form-group input {
+    display: inline-block;
+    width: 90%;
+    margin-left: 3%;
+    padding-left: 0;
+    padding-bottom: 20px;
+}
+
+.c-account__icon {
+    width: 7%;
+}
+
+.c-account__notifications {
+    border-bottom: 1px solid;
+    width: 90%;
+    margin-left: 3%;
+}
+
+.c-account__table-for {
+    margin-top: 0;
+    border-bottom: 1px solid;
+    width: 90%;
+    margin-left: 3%;
+}
+
+.c-account__table-for-input {
+    margin-top: -10px;
+}
+
+.c-account__table-for input {
+    width: 25px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+    text-align: center;
+    color: #112437;
+    height: 25px;
+}
+
+.c-account__save-changes {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.c-account__save-btn {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.c-account__save-changes .btn-primary {
+    min-width: 160px;
+}
+
+@media (min-width: 500px) {
+    .c-account__icon {
+        width: 5%;
+    }
+
+    .c-account__notifications, .c-account__table-for, .c-account .form-group input {
+        margin-left: 5%;
+    }
+}
+
+@media (min-width: 768px) {
+    .c-account__icon {
+        width: 25px;
+    }
+
+    .c-account__notifications, .c-account__table-for, .c-account .form-group input {
+        margin-left: 20px;
+    }
+
+    .c-account__sign-out {
+        top: 60px;
+    }
+}

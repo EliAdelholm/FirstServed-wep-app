@@ -1,0 +1,61 @@
+.c-favourites__desktop-title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.c-favourites__desktop-image {
+    padding-bottom: 55%;
+    background-size: cover;
+    background-position: center;
+}
+
+.c-favourites__desktop-address {
+    width: 100%;
+    overflow: hidden;
+    height: 30px;
+    padding-top: 5px;
+    white-space: nowrap;
+    margin-bottom: 10px;
+
+}
+
+.c-favourites__desktop-address-text {
+    width: 80%;
+    overflow: hidden;
+}
+
+.c-favourites__desktop-address-icon {
+    width: 11px;
+    margin-right: 5px;
+    margin-left: 3px;
+    margin-top: 2px;
+    vertical-align: top;
+}
+
+.c-favourites__desktop-fav-icon {
+    width: 25px;
+    margin-right: 3px;
+    margin-top: 2px;
+    position: absolute;
+    left: 8px;
+    top: 35%;
+    cursor: pointer;
+}
+
+.c-favourites__desktop-button {
+    text-align: center;
+    margin-bottom: 25px;
+    height: 80px;
+    overflow-y: auto;
+    padding: 0;
+}
+
+.c-favourites__desktop-button button {
+    margin: 2px!important;
+}
+
+.c-favourites__desktop-button p {
+    display: inline-block;
+    margin: 0;
+    font-size: 11pt;
+}

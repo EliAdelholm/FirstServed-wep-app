@@ -1,0 +1,131 @@
+.c-login {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.c-login__content {
+    background-color: rgba(242, 240, 237, 0.75);
+    margin-top: 60px;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+.c-login__logo {
+    width: 90%;
+    margin-bottom: 40px;
+}
+.c-login__form {
+    margin: 0 auto;
+    text-align: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    min-height: 100vh;
+}
+
+.c-login p {
+    padding: 10px;
+    max-width: 570px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin: 0 auto;
+}
+
+.form-control {
+    font-size: 12pt;
+}
+
+.c-login .form-group input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #90887a;
+    box-shadow: none;
+    border-radius: 0;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.c-login__buttons {
+    margin-top: 30px;
+}
+
+.c-signup-btn {
+    margin-bottom: 10px;
+}
+
+.c-login .btn-transparent {
+    margin-bottom: 10px;
+}
+
+.c-forgot-password__form {
+    min-height: 100vh;
+}
+
+.c-forgot-password__icon {
+    width: 30px;
+    margin-top: 60px;
+}
+
+@media (min-width: 576px) {
+    .c-login__logo {
+        max-width: 500px;
+    }
+
+    .c-login__content {
+        margin-top: 100px;
+    }
+
+    .c-login .form-group input {
+        text-align: left;
+        padding-top: 50px;
+        max-width: 100%;
+    }
+
+    .c-login__forgot-p {
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .c-login__buttons {
+        margin-top: 50px;
+    }
+
+    .c-login__buttons .form-group {
+        display: inline-block;
+    }
+
+    .c-login .btn-transparent {
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+
+    .c-login .btn-primary {
+        margin-left: 10px;
+    }
+
+    .c-forgot-password__icon {
+        margin-top: 120px;
+    }
+
+
+
+}
+
+@media (min-width: 768px) {
+    .c-login__logo {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
